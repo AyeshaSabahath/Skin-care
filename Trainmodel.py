@@ -5,8 +5,8 @@ from tensorflow.keras import layers, models
 import os
 
 # Dataset path
-train_dir = "dataset/train"
-test_dir = "dataset/test"
+train_dir = "Skin-care/dataset/train"
+test_dir = "Skin-care/dataset/test"
 
 # Image settings
 IMG_SIZE = (224, 224)

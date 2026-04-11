@@ -1,122 +1,172 @@
-###### \# Derma-web
+# Derma-Web | AI Skin Disease Detection System
 
-###### 
+An intelligent **AI-powered web application** that detects and classifies various skin diseases from uploaded images using **Deep Learning and Computer Vision**.
 
-###### A skin disease detection web application built using Machine Learning and Deep Learning.
+This project helps users identify possible skin conditions by analyzing skin lesion images with a trained **Convolutional Neural Network (CNN)** model.
 
-###### 
+---
 
-###### \## Features
+## Project Overview
 
-###### \- Skin disease image classification
+Skin diseases are one of the most common medical issues worldwide. Early detection can help in timely treatment and reduce risks.
 
-###### \- User-friendly web interface
+This system uses **Machine Learning + Deep Learning** techniques to classify skin disease images into multiple categories such as:
 
-###### \- Model prediction with confidence score
+- Melanoma
+- Basal Cell Carcinoma (BCC)
+- Benign Keratosis (BKL)
+- Nevus
+- Vascular Lesions
+- Dermatofibroma
+- Actinic Keratosis
 
-###### \- Training and testing pipeline
+The user uploads an image, and the model predicts the disease type with confidence score.
 
-###### \- Dataset support
+---
 
-###### 
+## Features
 
-###### \## Technologies Used
+- Image-based skin disease detection
+- Deep Learning CNN model
+- User-friendly web interface
+- Real-time image upload and prediction
+- Confidence score display
+- Training and testing pipeline
+- Preprocessing and classification support
+- Multi-class disease prediction
 
-###### \- Python
+---
 
-###### \- TensorFlow / Keras
+## Tech Stack
 
-###### \- Flask
+### Programming Language
+- Python
 
-###### \- HTML / CSS / JavaScript
+### Libraries / Frameworks
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Streamlit / Flask
+- Scikit-learn
 
-###### 
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-###### \## Project Structure
+---
 
-###### ```bash
+## Project Structure
 
-###### Derma-web/
+```bash
+Derma-web/
+│── app.py
+│── Predictmodel.py
+│── Trainmodel.py
+│── dataset/
+│   ├── train/
+│   └── test/
+│── skin_disease_model.h5
+│── requirements.txt
+│── README.md
+```
 
-###### │── app.py
+---
 
-###### │── Trainmodel.py
+## Dataset
 
-###### │── dataset/
+The dataset is organized into training and testing folders with class-wise subfolders.
 
-###### │── templates/
+```bash
+dataset/
+│── train/
+│   ├── akiec/
+│   ├── bcc/
+│   ├── bkl/
+│   ├── df/
+│   ├── melanoma/
+│   ├── nevus/
+│   └── vasc/
+│
+│── test/
+│   ├── akiec/
+│   ├── bcc/
+│   ├── bkl/
+│   ├── df/
+│   ├── melanoma/
+│   ├── nevus/
+│   └── vasc/
+```
 
-###### │── static/
+---
 
-###### │── README.md
+## Model Training
 
-###### │── requirements.txt
+Run the following command to train the model:
 
-###### ```
+```bash
+python Trainmodel.py
+```
 
-###### 
+This will generate the trained model file:
 
-###### \## Dataset
+```bash
+skin_disease_model.h5
+```
 
-###### The dataset contains skin disease images organized by class folders.
+---
 
-###### 
+## Run the Application
 
-###### Example:
+Use the following command:
 
-###### ```bash
+```bash
+python app.py
+```
 
-###### dataset/
+If using Streamlit:
 
-###### │── acne/
+```bash
+streamlit run app.py
+```
 
-###### │   ├── img1.jpg
+---
 
-###### │   ├── img2.jpg
+## How It Works
 
-###### │── eczema/
+1. User uploads skin image
+2. Image is preprocessed
+3. CNN model extracts features
+4. Disease class is predicted
+5. Result is shown with confidence score
 
-###### │   ├── img1.jpg
+---
 
-###### ```
+## Future Enhancements
 
-###### 
+- Doctor consultation integration
+- Medical report generation
+- Mobile app support
+- Severity detection
+- Prescription recommendation
+- Cloud deployment
+- Real-time camera detection
 
-###### \## How to Run
+---
 
-###### ```bash
+## Use Cases
 
-###### pip install -r requirements.txt
+- Healthcare assistance
+- Preliminary skin screening
+- Dermatology support systems
+- Medical college projects
+- AI healthcare research
 
-###### python app.py
+---
 
-###### ```
+## Author
 
-###### 
-
-###### \## Model Training
-
-###### ```bash
-
-###### python Trainmodel.py
-
-###### ```
-
-###### 
-
-###### \## Future Improvements
-
-###### \- More disease classes
-
-###### \- Better UI
-
-###### \- Deployment
-
-###### \- Improved accuracy
-
-###### 
-
-###### \## Author
-
-###### Ayesha Sabahath
-
+**Ayesha Sabahath**  
+AI / ML Developer | Major Project  
+GitHub: https://github.com/AyeshaSabahath

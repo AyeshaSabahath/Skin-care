@@ -1,122 +1,122 @@
-# \# Derma-web
+###### \# Derma-web
 
-# 
+###### 
 
-# A skin disease detection web application built using Machine Learning and Deep Learning.
+###### A skin disease detection web application built using Machine Learning and Deep Learning.
 
-# 
+###### 
 
-# \## Features
+###### \## Features
 
-# \- Skin disease image classification
+###### \- Skin disease image classification
 
-# \- User-friendly web interface
+###### \- User-friendly web interface
 
-# \- Model prediction with confidence score
+###### \- Model prediction with confidence score
 
-# \- Training and testing pipeline
+###### \- Training and testing pipeline
 
-# \- Dataset support
+###### \- Dataset support
 
-# 
+###### 
 
-# \## Technologies Used
+###### \## Technologies Used
 
-# \- Python
+###### \- Python
 
-# \- TensorFlow / Keras
+###### \- TensorFlow / Keras
 
-# \- Flask
+###### \- Flask
 
-# \- HTML / CSS / JavaScript
+###### \- HTML / CSS / JavaScript
 
-# 
+###### 
 
-# \## Project Structure
+###### \## Project Structure
 
-# ```bash
+###### ```bash
 
-# Derma-web/
+###### Derma-web/
 
-# │── app.py
+###### │── app.py
 
-# │── Trainmodel.py
+###### │── Trainmodel.py
 
-# │── dataset/
+###### │── dataset/
 
-# │── templates/
+###### │── templates/
 
-# │── static/
+###### │── static/
 
-# │── README.md
+###### │── README.md
 
-# │── requirements.txt
+###### │── requirements.txt
 
-# ```
+###### ```
 
-# 
+###### 
 
-# \## Dataset
+###### \## Dataset
 
-# The dataset contains skin disease images organized by class folders.
+###### The dataset contains skin disease images organized by class folders.
 
-# 
+###### 
 
-# Example:
+###### Example:
 
-# ```bash
+###### ```bash
 
-# dataset/
+###### dataset/
 
-# │── acne/
+###### │── acne/
 
-# │   ├── img1.jpg
+###### │   ├── img1.jpg
 
-# │   ├── img2.jpg
+###### │   ├── img2.jpg
 
-# │── eczema/
+###### │── eczema/
 
-# │   ├── img1.jpg
+###### │   ├── img1.jpg
 
-# ```
+###### ```
 
-# 
+###### 
 
-# \## How to Run
+###### \## How to Run
 
-# ```bash
+###### ```bash
 
-# pip install -r requirements.txt
+###### pip install -r requirements.txt
 
-# python app.py
+###### python app.py
 
-# ```
+###### ```
 
-# 
+###### 
 
-# \## Model Training
+###### \## Model Training
 
-# ```bash
+###### ```bash
 
-# python Trainmodel.py
+###### python Trainmodel.py
 
-# ```
+###### ```
 
-# 
+###### 
 
-# \## Future Improvements
+###### \## Future Improvements
 
-# \- More disease classes
+###### \- More disease classes
 
-# \- Better UI
+###### \- Better UI
 
-# \- Deployment
+###### \- Deployment
 
-# \- Improved accuracy
+###### \- Improved accuracy
 
-# 
+###### 
 
-# \## Author
+###### \## Author
 
-# Ayesha Sabahath
+###### Ayesha Sabahath
 
